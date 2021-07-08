@@ -140,17 +140,28 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="124.55357142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="hAS-7G-R2i">
             <objects>
-                <viewController id="J8v-AK-6zI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedViewController" id="J8v-AK-6zI" customClass="FeedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EAf-bR-efz">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="VTH-ge-s77"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ooC-FB-VdV"/>
+                    <navigationItem key="navigationItem" id="ooC-FB-VdV">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="Yoa-gf-bsh">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ZSb-3o-vgY">
+                                <rect key="frame" x="16" y="13" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="logOut:" destination="J8v-AK-6zI" eventType="touchUpInside" id="6bG-Ra-KXi"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZTJ-Ma-4bi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

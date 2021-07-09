@@ -22,6 +22,8 @@
 		8204DE0126978BAE00BAA4E0 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8204DE0026978BAE00BAA4E0 /* FeedViewController.m */; };
 		8204DE0426979C6D00BAA4E0 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8204DE0326979C6D00BAA4E0 /* PostViewController.m */; };
 		8204DE072697AACB00BAA4E0 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 8204DE062697AACB00BAA4E0 /* Post.m */; };
+		823910DA269809BB0071FCA4 /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 823910D9269809BB0071FCA4 /* PostCell.m */; };
+		8273EEAB2698DED100C2946F /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8273EEAA2698DED100C2946F /* DetailsViewController.m */; };
 		8A6A3E49B620C7A3EA9F0F86 /* Pods_Instagram_InstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB5ED282B91D22B72136967 /* Pods_Instagram_InstagramUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +74,10 @@
 		8204DE0326979C6D00BAA4E0 /* PostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
 		8204DE052697AACB00BAA4E0 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		8204DE062697AACB00BAA4E0 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		823910D8269809BB0071FCA4 /* PostCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		823910D9269809BB0071FCA4 /* PostCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		8273EEA92698DED100C2946F /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		8273EEAA2698DED100C2946F /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		A64367229DBC9564F4745BF0 /* Pods-Instagram-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB51126F516B5344BE3F166C /* Pods_InstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6AA4B4ED4CFAA39549FACA /* Pods-InstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-InstagramTests/Pods-InstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +181,10 @@
 				8204DE0326979C6D00BAA4E0 /* PostViewController.m */,
 				8204DE052697AACB00BAA4E0 /* Post.h */,
 				8204DE062697AACB00BAA4E0 /* Post.m */,
+				823910D8269809BB0071FCA4 /* PostCell.h */,
+				823910D9269809BB0071FCA4 /* PostCell.m */,
+				8273EEA92698DED100C2946F /* DetailsViewController.h */,
+				8273EEAA2698DED100C2946F /* DetailsViewController.m */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -435,10 +445,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8204DE0426979C6D00BAA4E0 /* PostViewController.m in Sources */,
+				8273EEAB2698DED100C2946F /* DetailsViewController.m in Sources */,
 				8204DDC62694EFB400BAA4E0 /* AppDelegate.m in Sources */,
 				8204DDFE2696AD6C00BAA4E0 /* SignUpViewController.m in Sources */,
 				8204DDFB2696AD4000BAA4E0 /* LogInViewController.m in Sources */,
 				8204DDD72694EFB500BAA4E0 /* main.m in Sources */,
+				823910DA269809BB0071FCA4 /* PostCell.m in Sources */,
 				8204DE0126978BAE00BAA4E0 /* FeedViewController.m in Sources */,
 				8204DDC92694EFB400BAA4E0 /* SceneDelegate.m in Sources */,
 				8204DE072697AACB00BAA4E0 /* Post.m in Sources */,
